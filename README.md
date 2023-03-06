@@ -1,6 +1,5 @@
 # Pkland Browsergame Engine
-
-2Moons is a free Space Browsergame
+http://www.pkland.lol/
 
 ## Status of this project
 
