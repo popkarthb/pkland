@@ -1,15 +1,9 @@
 # Pkland Browsergame Engine
 http://www.pkland.lol/
 
-## Status of this project
-
-This project is not under active development.
-
-Steemnova is an active fork: https://github.com/steemnova/steemnova
-
 # Credits
-* 2020-2023 popkarthb unit balance improvment
-* 2020-2023 popkarthb pkland ui changes
+* 2023-2024 unit balance improvment - popkarthb
+* 2020-2023 pkland ui modification - popkarthb
 * 2009-2019 [2Moons Browsergame Engine](https://github.com/jkroepke/2Moons) - jkroepke
 * 2008-2014 [XGProjecto](https://github.com/XG-Project/XG-Project-v2) - lucky
 * 2008,2009 XNova *"XNova 0.9a"* - XNova Group / xnova.fr

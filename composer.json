@@ -10,6 +10,8 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+	    "ext-json": "*"
+    },
     "require-dev": {}
 }

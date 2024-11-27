@@ -198,6 +198,14 @@ switch($page)
 		include_once('includes/pages/adm/ShowDumpPage.php');
 		ShowDumpPage();
 	break;
+    case 'speedup':
+        include_once('includes/pages/adm/ShowSpeedUpPage.php');
+        ShowSpeedUpPage();
+        break;
+    case 'createintruderbase':
+        include_once('includes/pages/adm/ShowCreatorIntruderBasePage.php');
+        ShowCreatorIntruderBasePage();
+        break;
 	default:
 		include_once('includes/pages/adm/ShowIndexPage.php');
 		ShowIndexPage();

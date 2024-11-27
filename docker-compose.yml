@@ -9,29 +9,29 @@ services:
     environment:
       DB_HOST: 127.0.0.1
       DB_USER: admin
-      DB_PASSWORD: yourpassword
+      DB_PASSWORD: yourPassword
       DB_NAME: 2moons
       ADMIN_NAME: admin
-      ADMIN_PASSWORD: popkarthb
+      ADMIN_PASSWORD: yourAdminPassword
       ADMIN_MAIL: mail@example.com
     ports:
       - 80:80
       - 443:443
     networks:
       - 2moons
-#db:
-#    image: mariadb
-#    environment:
-#      MYSQL_ROOT_PASSWORD: root
-#      MYSQL_DATABASE: 2moons
-#      MYSQL_USER: 2moons
-#      MYSQL_PASSWORD: 2moons
-#    ports:
-#      - 3306:3306
-#    networks:
-#      2moons:
-#        aliases:
-#          - database
+db:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: 2moons
+     MYSQL_USER: 2moons
+      MYSQL_PASSWORD: 2moons
+    ports:
+      - 3306:3306
+    networks:
+      2moons:
+        aliases:
+          - database
 
 networks:
   2moons:
